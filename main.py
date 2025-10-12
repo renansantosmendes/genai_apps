@@ -92,7 +92,7 @@ def ask_agent(query: Query) -> Dict:
     """
     Receives a financial question, invokes the agent, and returns the analysis.
     """
-    result = agent_executor.invoke({
+    result = agent_executor.invoke({ # type: ignore
         "messages": query.messages,
     })
     # The final response is in the last message of the output
