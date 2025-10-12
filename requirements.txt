@@ -1,0 +1,12 @@
+langchain
+langchain-openai
+langchain-core
+langchain-community
+langsmith
+langgraph
+pydantic
+yfinance
+google-colab
+ipykernel
+jupyter
+openai
