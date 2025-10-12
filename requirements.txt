@@ -10,3 +10,4 @@ google-colab
 ipykernel
 jupyter
 openai
+python-dotenv
